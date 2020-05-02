@@ -1,5 +1,5 @@
 import React from "react";
-import {TransitionGroup, CSSTransition} from 'react-transition-group'
+import {TransitionGroup, CSSTransition} from 'react-transition-group';
 
 export const List = ({items, onRemove}) => (
   <TransitionGroup component={'ul'}>
